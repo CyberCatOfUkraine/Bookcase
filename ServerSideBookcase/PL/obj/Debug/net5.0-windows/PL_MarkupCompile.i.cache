@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Olexandr\source\repos\ServerSideBookcase\PL\obj\Debug\net5.0-windows\
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\PL\obj\Debug\net5.0-windows\
 PL
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Olexandr\source\repos\ServerSideBookcase\PL\App.xaml
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\PL\App.xaml
 11407045341
 
 51586803449
 195-663307323
 MainWindow.xaml;
 
-True
+False
 

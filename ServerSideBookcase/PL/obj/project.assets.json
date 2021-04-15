@@ -97,11 +97,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olexandr\\source\\repos\\ServerSideBookcase\\PL\\PL.csproj",
-      "projectName": "PL",
-      "projectPath": "C:\\Users\\Olexandr\\source\\repos\\ServerSideBookcase\\PL\\PL.csproj",
+      "projectUniqueName": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\PL\\PresentationLevel.csproj",
+      "projectName": "PresentationLevel",
+      "projectPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\PL\\PresentationLevel.csproj",
       "packagesPath": "C:\\Users\\Olexandr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Olexandr\\source\\repos\\ServerSideBookcase\\PL\\obj\\",
+      "outputPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\PL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

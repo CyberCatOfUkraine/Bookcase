@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ziKRfJ2wra6++1ReXC308PI0Fm4DhV0tcFqhYKOKn7SjX5y1bSPWO3Xmuz5UuXmqQWSZuz17sRmvXKwhUQr/aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\PL\\PresentationLevel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Olexandr\\.nuget\\packages\\materialdesigncolors\\2.0.0\\materialdesigncolors.2.0.0.nupkg.sha512",
+    "C:\\Users\\Olexandr\\.nuget\\packages\\materialdesignthemes\\4.0.0\\materialdesignthemes.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

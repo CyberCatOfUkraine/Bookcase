@@ -1,0 +1,12 @@
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\bin\Debug\net5.0\BusinessLogicLevel.deps.json
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\bin\Debug\net5.0\BusinessLogicLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\bin\Debug\net5.0\ref\BusinessLogicLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\bin\Debug\net5.0\BusinessLogicLevel.pdb
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.csprojAssemblyReference.cache
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.AssemblyInfoInputs.cache
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.AssemblyInfo.cs
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.csproj.CoreCompileInputs.cache
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\ref\BusinessLogicLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\BusinessLogicLevel\obj\Debug\net5.0\BusinessLogicLevel.pdb

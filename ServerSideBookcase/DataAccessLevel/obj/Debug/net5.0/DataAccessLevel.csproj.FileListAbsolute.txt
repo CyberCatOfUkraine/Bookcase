@@ -1,0 +1,12 @@
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.csprojAssemblyReference.cache
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.AssemblyInfoInputs.cache
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.AssemblyInfo.cs
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.csproj.CoreCompileInputs.cache
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\DataAccessLevel.deps.json
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\DataAccessLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\ref\DataAccessLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\DataAccessLevel.pdb
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\ref\DataAccessLevel.dll
+C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataAccessLevel.pdb
