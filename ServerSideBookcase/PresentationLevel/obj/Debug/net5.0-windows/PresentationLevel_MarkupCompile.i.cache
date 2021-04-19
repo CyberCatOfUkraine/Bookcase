@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\PL\obj\Debug\net5.0-windows\
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\PresentationLevel\obj\Debug\net5.0-windows\
 PresentationLevel
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Olexandr\source\repos\Bookcase\ServerSideBookcase\PL\App.xaml
-11407045341
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\PresentationLevel\App.xaml
+4-1579263840
 
-9-776471954
-197-1347320728
-MainWindow.xaml;
+12-443970982
+197-551213444
+MainWindow.xaml;Windows\AddBookWindow.xaml;Windows\EditBookWindow.xaml;Windows\ServerWindow.xaml;
 
-False
+True
 

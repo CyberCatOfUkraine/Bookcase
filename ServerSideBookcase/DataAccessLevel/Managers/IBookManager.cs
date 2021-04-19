@@ -1,9 +1,9 @@
-﻿using DataAccessLevel.POCO;
+﻿using DataAccessLevel.DTO;
 using System.Collections.Generic;
 
 namespace DataAccessLevel.Managers
 {
-    interface IBookManager<T> where T:Book
+    interface IBookManager<T> where T: Book
     {
         void Add(T enity);
 

@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DataAccessLevel.POCO;
+using DataAccessLevel.DTO;
 using DataAccessLevel.Managers;
 using System;
 
@@ -14,7 +14,7 @@ namespace DataAccessLevelTests
             try
             {
                 var manager = new FileBookManager();
-                manager.InitializeRepository();
+                manager.InitializeManager();
                 var testBook = new Book { Name = "Book", Author = "Author", Description = "Description", PathToBook = "PathToBook", PathToTitleImage = "PathToTitleImage" };
                 manager.Add(testBook);
                 manager.Remove(testBook);
@@ -32,7 +32,7 @@ namespace DataAccessLevelTests
         public void GetByNameTestMethod()
         {
             var manager = new FileBookManager();
-            manager.InitializeRepository();
+            manager.InitializeManager();
             string name = "Book", description = "Description";
             var testBook = new Book { Name = name, Author = "Author",Description=description, PathToBook = "PathToBook", PathToTitleImage = "PathToTitleImage" };
             manager.Add(testBook);
@@ -45,7 +45,7 @@ namespace DataAccessLevelTests
         public void UpdateTestMethod()
         {
             var manager = new FileBookManager();
-            manager.InitializeRepository();
+            manager.InitializeManager();
             var testBook1 = new Book { Name = "Book", Author = "Author", Description = "Description", PathToBook = "PathToBook", PathToTitleImage = "PathToTitleImage" };
             var testBook2 = new Book { Name=testBook1.Name,Author=testBook1.Author,Description=testBook1.Description, PathToBook=testBook1.PathToBook,PathToTitleImage=testBook1.PathToTitleImage };
 
@@ -61,7 +61,7 @@ namespace DataAccessLevelTests
         public void GetCountOfBooksTestMethod()
         {
             var manager = new FileBookManager();
-            manager.InitializeRepository();
+            manager.InitializeManager();
             string name = "Book", description = "Description";
             var testBook = new Book { Name = name, Author = "Author", Description = description, PathToBook = "PathToBook", PathToTitleImage = "PathToTitleImage" };
             manager.Add(testBook);

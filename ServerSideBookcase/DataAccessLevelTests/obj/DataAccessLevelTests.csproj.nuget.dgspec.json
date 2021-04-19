@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj": {}
+    "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj": {
+    "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj",
+        "projectUniqueName": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj",
         "projectName": "DataAccessLevelTests",
-        "projectPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj",
+        "projectPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\DataAccessLevelTests.csproj",
         "packagesPath": "C:\\Users\\Olexandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\obj\\",
+        "outputPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevelTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj": {
-                "projectPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj"
+              "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj": {
+                "projectPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj"
               }
             }
           }
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj": {
+    "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
+        "projectUniqueName": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
         "projectName": "DataAccessLevel",
-        "projectPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
+        "projectPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
         "packagesPath": "C:\\Users\\Olexandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\obj\\",
+        "outputPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

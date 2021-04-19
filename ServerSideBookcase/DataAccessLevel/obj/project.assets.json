@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
+      "projectUniqueName": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
       "projectName": "DataAccessLevel",
-      "projectPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
+      "projectPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
       "packagesPath": "C:\\Users\\Olexandr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Olexandr\\source\\repos\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\obj\\",
+      "outputPath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -111,7 +111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

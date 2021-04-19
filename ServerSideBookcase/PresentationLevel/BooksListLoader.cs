@@ -15,9 +15,12 @@ namespace PresentationLevel
             _manager = manager;
         }
 
-        public List<POCO.Book> GetBooks()
+        public List<Models.DisplayedBook> GetBooks()
         {
-            var books =new List<POCO.Book>();
+            var books = new List<Models.DisplayedBook>();
+
+            if (_manager.CountOfBooks == 0)
+                return books;
 
             foreach(var book in _manager.GetAll())
             {

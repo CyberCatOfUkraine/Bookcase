@@ -2,10 +2,9 @@
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace PresentationLevel.POCO
+namespace PresentationLevel.Models
 {
-    [Serializable]
-    public class Book
+    public class DisplayedBook
     {
         public string Name { get; set; }
         public string Author { get; set; }

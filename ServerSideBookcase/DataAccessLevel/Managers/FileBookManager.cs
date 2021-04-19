@@ -1,5 +1,5 @@
-﻿using DataAccessLevel.Exceptions;
-using DataAccessLevel.POCO;
+﻿using DataAccessLevel.DTO;
+using DataAccessLevel.Exceptions;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,7 @@ namespace DataAccessLevel.Managers
         private const string BooksListFileName = ".list";
         private string BookDataDirPath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), Globals.AppName);
 
-        public void InitializeRepository()
+        public void InitializeManager()
         {
             if (!Directory.Exists(BookDataDirPath))
             {
@@ -106,7 +106,7 @@ namespace DataAccessLevel.Managers
         {
             get
             {
-                return _books.Count;
+                return _books==null?0:_books.Count;///Якщо книг нема то й відправляється 0
             }
         }
 

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
-using PresentationLevel.POCO;
+using PresentationLevel.Models;
 using DataAccessLevel.Managers;
 namespace PresentationLevel
 {
@@ -10,7 +9,7 @@ namespace PresentationLevel
     /// </summary>
     public partial class MainWindow : Window
     {
-        private List<Book> _books;
+        private List<DisplayedBook> _books;
         private FileBookManager _manager;
 
         private bool GridsIsVisible
@@ -33,7 +32,7 @@ namespace PresentationLevel
         public MainWindow()
         {
             InitializeComponent();
-            _books = new List<Book>();
+            _books = new List<DisplayedBook>();
             _manager = new FileBookManager();
             LoadData();
             InitiateGrids();
@@ -71,6 +70,8 @@ namespace PresentationLevel
 
         private void LoadData()
         {
+            _manager.InitializeManager();
+
             BooksListLoader booksListLoader = new BooksListLoader(_manager);
             _books = booksListLoader.GetBooks();
         }
