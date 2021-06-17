@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/3j894stP1YcipN9SHIo8r23e2VNMhwjNviMwSY+OnU35z4AlPeLsYvCAA75f/9A3CZk/SNMKqBXsV8/MkZXFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Olexandr\\Source\\Repos\\KOT98\\Bookcase\\ServerSideBookcase\\DataAccessLevel\\DataAccessLevel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Olexandr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
