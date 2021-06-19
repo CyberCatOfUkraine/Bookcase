@@ -11,7 +11,11 @@ namespace Logic
         private List<Book> _Books;
         public BookManager()
         {
-            _Books = new List<Book>();
+            _Books = new();
+        }
+        public BookManager(List<Book> books)
+        {
+            _Books = books;
         }
         public void Save(Book book)
         {

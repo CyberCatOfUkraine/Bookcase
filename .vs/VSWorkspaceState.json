@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ServerSideBookcase",
+    "\\ServerSideBookcase\\DataAccessLevel",
+    "\\ServerSideBookcase\\DataAccessLevel\\Managers",
+    "\\ServerSideBookcase\\Logic"
   ],
-  "SelectedNode": "\\ServerSideBookcase.sln",
+  "SelectedNode": "\\ServerSideBookcase\\DataAccessLevel\\Managers\\FileBookManager.cs",
   "PreviewInSolutionExplorer": false
 }
