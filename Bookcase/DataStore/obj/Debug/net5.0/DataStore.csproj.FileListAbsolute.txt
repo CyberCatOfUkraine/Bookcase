@@ -1,0 +1,15 @@
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\DataStore.deps.json
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\DataStore.dll
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\ref\DataStore.dll
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\DataStore.pdb
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\Entitys.dll
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\bin\Debug\net5.0\Entitys.pdb
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.csproj.AssemblyReference.cache
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.AssemblyInfoInputs.cache
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.AssemblyInfo.cs
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.csproj.CoreCompileInputs.cache
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.csproj.CopyComplete
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.dll
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\ref\DataStore.dll
+C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\DataAccessLevel\obj\Debug\net5.0\DataStore.pdb

@@ -1,5 +1,0 @@
-C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache
-C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
-C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
-C:\Users\Olexandr\Source\Repos\KOT98\Bookcase\ServerSideBookcase\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
