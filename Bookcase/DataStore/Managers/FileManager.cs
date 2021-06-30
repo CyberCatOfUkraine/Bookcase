@@ -10,8 +10,7 @@ namespace DataStore.Managers
 {
     public class FileManager:IFileManager
     {
-        static List<string> _locker = new();//Використовується як список зайнятих файлів _locker 
-        private static readonly int CHUNK_SIZE = 1024;
+        static readonly List<string> _locker = new();//Використовується як список зайнятих файлів
 
         
         public void Append(string path, byte[] content)
@@ -23,7 +22,7 @@ namespace DataStore.Managers
 
                 }
                 _locker.Add(path);
-                Thread thread = new Thread(() =>
+                Thread thread = new(() =>
                 {
                     using var fileStream = new FileStream(path, FileMode.Append, FileAccess.Write, FileShare.None);
                     using var writer = new BinaryWriter(fileStream);
@@ -61,7 +60,7 @@ namespace DataStore.Managers
 
                 }
                 _locker.Add(path);
-                Thread thread = new Thread(() =>
+                Thread thread = new(() =>
                 {
                     File.Create(path).Close();
                 });
@@ -109,7 +108,7 @@ namespace DataStore.Managers
                 _locker.Add(path);
 
                 List<byte> byteList = new();
-                Thread thread = new Thread(() =>
+                Thread thread = new(() =>
                 {
                     using var fileStream = new FileStream(path, FileMode.Open, FileAccess.Read,FileShare.None);
                     using var binaryReader = new BinaryReader(fileStream);
@@ -145,7 +144,7 @@ namespace DataStore.Managers
 
                 }
                 _locker.Add(path);
-                Thread thread = new Thread(() =>
+                Thread thread = new(() =>
                 {
                     File.WriteAllText(path, string.Empty);
                 });
@@ -168,7 +167,7 @@ namespace DataStore.Managers
 
                 }
                 _locker.Add(path);
-                Thread thread = new Thread(() =>
+                Thread thread = new(() =>
                 {
 
                     using var fileStream = new FileStream(path, FileMode.Open, FileAccess.Write, FileShare.None);
