@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entitys
 {
-    public interface IBook:SimpleBook
+    public interface IBook:ISimpleBook
     {
         Tuple<Type,object> Document { get; set; }
     }

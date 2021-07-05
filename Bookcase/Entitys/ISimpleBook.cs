@@ -2,7 +2,7 @@
 
 namespace Entitys
 {
-    public classmleBook
+    public interface ISimpleBook
     {
         public string Name { get; set; }
         public string Path { get; set; }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entitys
 {
-    public class User
+    public interface IUser
     {
         public string Name { get; set; }
-        public List<Bookmark> Bookmarks { get; set; }
-        public List<SimpleBook> Books { get; set; }
+        public List<IBookmark> Bookmarks { get; set; }
+        public List<ISimpleBook> Books { get; set; }
     }
 }

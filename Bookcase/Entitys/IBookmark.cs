@@ -6,16 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entitys
 {
-    public class Bookmark
+    public interface IBookmark
     {
-        private readonly SimpleBook _book;
-        private readonly int _page;
-        public Bookmark(SimpleBook book,int page)
-        {
-            _book = book;
-            _page = page;
-        }
-        public Tuple<SimpleBook, int> GetBookmark => new(_book, _page);
-
+        public Tuple<ISimpleBook, int> Bookmark { get; set; }
     }
 }
