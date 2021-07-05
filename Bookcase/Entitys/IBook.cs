@@ -8,6 +8,6 @@ namespace Entitys
 {
     public interface IBook:ISimpleBook
     {
-        Tuple<Type,object> Document { get; set; }
+        Pair<Type,object> Document { get; set; }
     }
 }

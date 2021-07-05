@@ -10,6 +10,6 @@ namespace Entitys
     {
         public string Name { get; set; }
         public List<IBookmark> Bookmarks { get; set; }
-        public List<ISimpleBook> Books { get; set; }
+        public List<Pair<ISimpleBook,BookState>> Books { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace Entitys
 {
     public interface IBookmark
     {
-        public Tuple<ISimpleBook, int> Bookmark { get; set; }
+        public Pair<ISimpleBook, int> Bookmark { get; set; }
     }
 }

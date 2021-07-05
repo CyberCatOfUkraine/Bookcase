@@ -6,8 +6,5 @@ using System.Threading.Tasks;
 
 namespace Entitys
 {
-    public interface IBookState
-    {
         public enum BookState { Open, Processing, Finish };
-    }
 }

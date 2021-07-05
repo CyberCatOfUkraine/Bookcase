@@ -8,27 +8,27 @@ namespace Logic
 {
     public class BookManager
     {
-        private List<SimpleBook> _Books;
+        private List<ISimpleBook> _Books;
         public BookManager()
         {
             _Books = new();
         }
-        public BookManager(List<SimpleBook> books)
+        public BookManager(List<ISimpleBook> books)
         {
             _Books = books;
         }
-        public void Save(SimpleBook book)
+        public void Save(ISimpleBook book)
         {
             _Books.Add(book);
         }
-        public SimpleBook GetByName(string name)
+        public ISimpleBook GetByName(string name)
         {
             return _Books.First(x => x.Name == name);
         }
 
-        public List<SimpleBook> GetBooks() => _Books;
+        public List<ISimpleBook> GetBooks() => _Books;
 
-        public void Remove(SimpleBook book)
+        public void Remove(ISimpleBook book)
         {
             if (!_Books.Contains(book))
             {
@@ -37,7 +37,7 @@ namespace Logic
             _Books.Remove(book);
 
         }
-        public void Update(SimpleBook book)
+        public void Update(ISimpleBook book)
         {
             if (GetByName(book.Name)==null)
             {
