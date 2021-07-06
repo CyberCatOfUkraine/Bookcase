@@ -8,15 +8,7 @@ namespace Logic
 {
     public class BookManager
     {
-        private List<ISimpleBook> _Books;
-        public BookManager()
-        {
-            _Books = new();
-        }
-        public BookManager(List<ISimpleBook> books)
-        {
-            _Books = books;
-        }
+        private static List<ISimpleBook> _Books = new();
         public void Save(ISimpleBook book)
         {
             _Books.Add(book);
@@ -27,7 +19,7 @@ namespace Logic
         }
 
         public List<ISimpleBook> GetBooks() => _Books;
-
+        public void SetBooks(List<ISimpleBook> books) => _Books = books;
         public void Remove(ISimpleBook book)
         {
             if (!_Books.Contains(book))

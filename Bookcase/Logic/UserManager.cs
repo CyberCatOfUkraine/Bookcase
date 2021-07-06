@@ -9,17 +9,14 @@ namespace Logic
 {
     public class UserManager
     {
-        private List<IUser> _users;
-        public UserManager()
-        {
-            _users = new();
-        }
+        private static List<IUser> _users = new();
         public void Add(IUser user)
         {
             _users.Add(user);
         }
         public IUser GetByName(string name) => _users.First(x => x.Name==name);
         public List<IUser> GetUsers() => _users;
+        public void SetUsers(List<IUser> users) => _users = users;
         public void Update(string name, List<IBookmark> bookmarks, List<Pair<ISimpleBook,BookState>> books)
         {
             _users.First(x => x.Name == name).Bookmarks=bookmarks;
