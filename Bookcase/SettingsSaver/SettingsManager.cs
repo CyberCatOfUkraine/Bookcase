@@ -43,6 +43,8 @@ namespace SettingsSaver
         }
         public static void SaveSetting()
         {
+            _settings.Books = new BookManager().GetBooks();
+            _settings.Users = new UserManager().GetUsers();
             fileManager.Write(SettingsFilePath, Mapper<ISetting>.Map(_settings));
         }
     }
