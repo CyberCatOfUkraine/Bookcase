@@ -4,6 +4,7 @@ using Logic;
 using SettingsSaver.LocalModels;
 using System;
 using System.IO;
+using System.Threading;
 
 namespace SettingsSaver
 {
@@ -15,11 +16,16 @@ namespace SettingsSaver
         static string SettingsFilePath => Path.Combine(Environment.CurrentDirectory, Globals.Globals.ConfigurationDirName, _settingsFileName);
         static SettingsManager()
         {
+            Thread thread = new(LoadSettings);
+            thread.Start();
+        }
+        private static void LoadSettings()
+        {
             if (_settings.BooksPath == null)
             {
                 _settings.BooksPath = Globals.Globals.DefaultBooksDirName;
             }
-           
+
             if (!fileManager.IsExist(SettingsFilePath))
             {
                 fileManager.Create(SettingsFilePath);

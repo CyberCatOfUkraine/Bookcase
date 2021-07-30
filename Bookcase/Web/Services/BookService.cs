@@ -9,6 +9,7 @@ namespace Web.Services
     public class BookService
     {
         private static BookManager _bookManager = new();
+        public int BooksCount => _bookManager.GetBooks().Count;
         public IEnumerable<string> GetBookNames()
         {
             var names = new List<string>();

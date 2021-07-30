@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HfSYYm+MNrLSnBQP0uPHxJFRC3oJxZ7t4Bn8ZZhOxnd30bUAzzHdhfIuZmW0CBBXjTUZlxDBN1490Gq5Zt/EfQ==",
+  "dgSpecHash": "B7h3tdxD5bnkvXZZWWqiJpuD13RBU2OgNytoXcNFBEMdxErfZEEGHtqZByNlQPsi87MNm/4q8LZb4BSsJ57tpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Olexandr\\source\\repos\\KOT98\\Bookcase\\Bookcase\\Web\\Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Olexandr\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.7\\microsoft.aspnetcore.authentication.google.5.0.7.nupkg.sha512",
     "C:\\Users\\Olexandr\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Olexandr\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Olexandr\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

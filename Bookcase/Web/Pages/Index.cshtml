@@ -3,37 +3,31 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
-<div class="text-center">
-    <h1 class="display-3">Вітаємо!</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <div class="col">
-        <table>
-            <tr>
-                <td>
-                    <label>Топ популярних книг :</label>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Null</td>
-            </tr>
-        </table>
+<section>
+    <div class="justify-content-center row">
+        <label class="col-sm-2" id="dataLabel">Кількість звернень до сторінки: </label>
+        <button onclick="clearLocalStorage()">Clear</button>
     </div>
-</div>
-@{ 
-    var s=
-    if (true)
-    {
-        @("")
-    }
-}
-<div class="col">
-    <img src="#" alt="Ну шо уж, куда уж" />
+</section>
+<script>
 
-</div>
-<style type="text/css">
-   #label{
-       align-content:center;
-   }
-</style>
+    function clearLocalStorage() {
+        window.localStorage.clear();
+        document.getElementById("dataLabel").innerText = "Кількість звернень до сторінки: 0";
+    }
+    LoadData();
+    function LoadData() {
+        let number = window.localStorage.getItem("startupNumber");
+
+        if (number != null) {
+
+            document.getElementById("dataLabel").innerText = "Кількість звернень до сторінки: " + number;
+            number++;
+            window.localStorage.setItem("startupNumber", number);
+        } else {
+            document.getElementById("dataLabel").innerText = "Кількість звернень до сторінки: 1";
+            window.localStorage.setItem("startupNumber", 2);
+        }
+    }
+</script>
+
